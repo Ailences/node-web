@@ -20,5 +20,5 @@ app.use(router)
 
 // 让后台项目运行在 5000 端口
 app.listen(5000, () => {
-    console.log('server runnung at http://127.0.0.1:5000');
+    console.log('server runnung at http://127.0.0.1:5000')
 })

@@ -4,7 +4,7 @@
 
 ### 后端页面 ### 
 运行在 `http://127.0.0.1:5000`
-安装`expres`s包  `mysql`包  `cors`包
+安装`expres`s包  `mysql`包  `cors`包 `body-parser`包
 
 数据库部分：创建heros表，并添加一些数据 id name gender ctime isdel
 
@@ -16,4 +16,7 @@
 
 ### 前端页面 ###
 运行在`http://127.0.0.1:3000`
-基于 `semantic-ui` 需全局安装 `gulp` 另需安装 `jquery`包
+基于 `semantic-ui` 需全局安装 `gulp` 另需安装 `jquery`包 `art-template`包
+- [x] 用semantic-ui完成静态页面
+- [x] 调取后台接口并使用art-template模板渲染页面
+- [x] 调取后台接口实现对人物的增删改查
